@@ -100,7 +100,7 @@ export default function Home() {
                 style={{ width: "60px", marginRight: "0.5rem" }}
               />
               <label>
-                Approved
+                Evaluated
                 <input
                   type="checkbox"
                   checked={round.pdgaApproved}
@@ -109,7 +109,7 @@ export default function Home() {
                 />
               </label>
               <label style={{ marginLeft: "1rem" }}>
-                Counted
+                Included
                 <input
                   type="checkbox"
                   checked={round.counted}
